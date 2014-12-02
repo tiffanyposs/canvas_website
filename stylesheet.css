@@ -1,12 +1,3 @@
-a{
-  text-decoration: none;
-  color: mediumturquoise;
-}
-
-a:hover{
-  color: coral;
-}
-
 ul{
   padding-left: 0;
   padding-right: 0;
@@ -22,6 +13,15 @@ li{
   font-size: 30px;
   font-family: 'Bad Script', cursive;
   margin: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: mediumturquoise;
+}
+
+a:hover{
+  color: coral;
 }
 
 footer{
@@ -40,6 +40,15 @@ canvas{
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+div.javalink{
+  padding-top: 10px;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Bad Script', cursive;
+  color: mediumturquoise;
 }
 
 /*animation.html details*/
