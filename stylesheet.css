@@ -1,0 +1,126 @@
+a{
+  text-decoration: none;
+  color: mediumturquoise;
+}
+
+a:hover{
+  color: coral;
+}
+
+ul{
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+li{
+  list-style-type:none;
+  display: inline;
+  font-size: 30px;
+  font-family: 'Bad Script', cursive;
+  margin: 20px;
+}
+
+footer{
+  padding: 30px 0 30px 0;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Bad Script', cursive;
+  color: mediumturquoise;
+}
+
+
+canvas{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*animation.html details*/
+.header1{
+  text-align: center;
+  margin-bottom: -15px;
+  margin-top: -15px;
+  font-family: 'Bad Script', cursive;
+  font-size: 40px;
+  color: RoyalBlue;
+}
+
+#the_canvas1{
+  border: 5px solid rgb(247, 175, 201);
+  margin-top:20px;
+}
+
+
+/*bouncing_balls.html*/
+.header2{
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-family: 'Bad Script', cursive;
+  font-size: 40px;
+  color: #694364;
+}
+
+#the_canvas2{
+  border: 5px solid #C2AFA1;
+}
+
+/*disco.html*/
+.body3{
+  background-color: cornflowerblue;
+}
+.header3{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  text-shadow: 3px 3px 0 white;
+}
+
+span.color1{
+  color: mediumvioletred;
+}
+span.color2{
+  color: darkcyan;
+}
+span.color3{
+  color: orchid;
+}
+span.color4{
+  color: royalblue;
+}
+
+#the_canvas3{
+  border: 7px solid white;
+  border-radius: 300px;
+}
+
+
+
+/*gred.html details*/
+.body4{
+  background-color: lavender;
+}
+
+.header4{
+  text-align: center;
+  font-size: 40px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: 'Bad Script', cursive;
+  color: palevioletred;
+}
+
+#the_canvas4{
+  margin-top: 10px;
+  border: 6px solid white;
+  border-radius: 50px;
+}

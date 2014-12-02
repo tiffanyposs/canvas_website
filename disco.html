@@ -1,0 +1,49 @@
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat+Subrayada:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+  <link href='stylesheet.css' rel='stylesheet' type='text/css'>
+</head>
+<body class = body3>
+
+  <ul>
+    <li><a href="index.html">Clouds</a></li>
+    <li><a href="bouncing_balls.html">Balls</a></li>
+    <li><a href="disco.html">Disco</a></li>
+    <li><a href="gred.html">Gradient</a></li>
+  </ul>
+
+  <h1 class = header3>
+    <span class = "color1">Welcome </span>
+    <span class = "color2">to </span>
+    <span class = "color3">the </span>
+    <span class = "color4">Disco</span>
+  </h1>
+
+<canvas id="the_canvas3" width="500" height="500"></canvas>
+<script>
+
+  var canvas = document.getElementById('the_canvas3');
+  var ctx = canvas.getContext('2d');
+
+
+  var x = 0;
+
+  var draw = function() {
+
+    var r = Math.floor(255*Math.random()).toString();
+    var g = Math.floor(255*Math.random()).toString()
+    var b = Math.floor(255*Math.random()).toString()
+
+    ctx.fillStyle = "rgb(" + r +","+ g + "," + b +")";
+    ctx.fillRect(0,0, canvas.width, canvas.height);
+
+}
+
+setInterval(draw, 500);
+</script>
+
+<footer>By: Tiffany Poss</footer>
+
+</body>
+</html

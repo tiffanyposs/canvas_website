@@ -2,35 +2,25 @@
 
 <head>
   <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+  <link href='stylesheet.css' rel='stylesheet' type='text/css'>
   <title>Bouncing Balls</title>
 </head>
 
-<style>
-
-h1{
-  text-align: center;
-  margin-top: 0px;
-  font-family: 'Bad Script', cursive;
-  color: #694364;
-}
-
-canvas{
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:20px;
-  display: block;
-  border: 5px solid #C2AFA1;
-  }
-</style>
-
 <body>
 
-  <canvas id="the_canvas" width="800" height="600"></canvas>
+  <ul>
+    <li><a href="index.html">Clouds</a></li>
+    <li><a href="bouncing_balls.html">Balls</a></li>
+    <li><a href="disco.html">Disco</a></li>
+    <li><a href="gred.html">Gradient</a></li>
+  </ul>
+
+  <h1 class = header2>Command + r</h1>
+
+  <canvas id="the_canvas2" width="800" height="600"></canvas>
 
   <script>
-  var canvas = document.getElementById('the_canvas');
+  var canvas = document.getElementById('the_canvas2');
   var ctx = canvas.getContext('2d');
 
   // this draws a bouncing circle
@@ -169,7 +159,7 @@ var yPosition = function() {
   setInterval(draw, 40);
 </script>
 
-<h1>Command + r</h1>
+<footer>By: Tiffany Poss</footer>
 
 </body>
 </html>

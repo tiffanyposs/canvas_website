@@ -2,38 +2,28 @@
 
 <head>
   <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
-  <title>Clouds at Sunset</title>
+  <link href='stylesheet.css' rel='stylesheet' type='text/css'>
+  <title>My Projects</title>
 </head>
 
-<style>
-
-h1{
-  text-align: center;
-  margin-bottom: -15px;
-  font-family: 'Bad Script', cursive;
-  color: RoyalBlue;
-}
-
-canvas{
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:20px;
-  display: block;
-  border: 5px solid rgb(247, 175, 201);
-}
-</style>
 
 <body>
 
-  <h1><-----clouds-----></h1>
-  
-  <canvas id="the_canvas" width="700" height="600"></canvas>
+<ul>
+  <li><a href="index.html">Clouds</a></li>
+  <li><a href="bouncing_balls.html">Balls</a></li>
+  <li><a href="disco.html">Disco</a></li>
+  <li><a href="gred.html">Gradient</a></li>
+</ul>
+
+
+  <h1 class = "header1"><-----clouds-----></h1>
+
+  <canvas id="the_canvas1" width="700" height="600"></canvas>
 
   <script>
 
-  var canvas = document.getElementById("the_canvas");
+  var canvas = document.getElementById("the_canvas1");
   var ctx = canvas.getContext("2d");
 
   var moveRight = true;
@@ -324,6 +314,8 @@ canvas{
 
 
 </script>
+
+<footer>By: Tiffany Poss</footer>
 
 </body>
 </html>
